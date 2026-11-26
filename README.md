@@ -642,3 +642,23 @@ The following are release-preparation checks for the repository maintainer, not 
 ---
 
 **Evidence policy:** Reproducibility means exposing the method and evidence to falsification, not forcing all future executions to reproduce an expected number. The frozen scientific record remains intact; new evidence, including discrepancies, should be reported transparently.
+
+## Artifact Availability and Verification (V22)
+
+| Artifact | Tag | SHA-256 |
+|---|---|---|
+| Historical scientific evidence | v1.0.0-artifact.5 | see release notes |
+| Corrective scientific artifact | v1.0.0-artifact.6 | e9d64eec4cbf1a484400ed36ad18d9bfb49b00163c6446a74af28ded8f3a48c7 |
+| V22 integrity and replay audit | v1.0.0-artifact.7 | 9fc3b4525fa357c4ddaa3696f018482838b888668bc628c9257ddb32da19aba0 |
+
+The historical local handover container digest ced5a3d1b577d32cddeccff8370c28d329433930734171b537c20cf726144ced identifies a
+different container serialization with identical member contents (46/46);
+always verify the downloaded corrective ZIP against the public digest.
+
+See VERIFY_PUBLIC_ARTIFACTS.md, LICENSE_SCOPE.md and
+ARTIFACT_IDENTITY_CLARIFICATION.md.
+
+**Claim restrictions.** Corrective cases are post-exposure regression evidence.
+P04/P05 remain historical-only. KAT engine replay was not executed. No
+independent third-party replication, universal correctness, complete
+source-to-binary provenance, or production failure probability is claimed.

@@ -1,0 +1,9 @@
+Creative Commons Attribution 4.0 International (CC-BY-4.0)
+SPDX-License-Identifier: CC-BY-4.0
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+Applied to author-owned synthetic datasets, research outputs and
+documentation. A hand-transcribed copy is not bundled, to avoid textual
+divergence from the official legal code.

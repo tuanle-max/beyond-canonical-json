@@ -1,0 +1,18 @@
+{
+  "status": "ACCEPTED_REPRODUCTION_OF_HISTORICAL",
+  "artifact_eq6": "30/30",
+  "campaign": "0/30",
+  "first_divergence_j": "0",
+  "digests": {
+    "real_manifest": "f5dbc2fe037db808885d35648c4e2dd84df32e684c3e98b9056a41da181e9e3b",
+    "campaign_formula": "8d495ed00f61a8adcefed41f27caecfb55ead29ea70928792f85a7f6f8902095",
+    "historical_campaign_csv": "cc989ba9dc27ee945cb731cfb0439d92ae65dd732c15964bf893e71dbd23646f",
+    "historical_eq6_csv": "4332844b4746c63966dc4814daa1fc681c3ffd85586cb3dc16b66443443ba10b",
+    "repro_script": "8e3f346ccb09c96237333e5ded7594cf9ff77c334c7fc58877b7b1e953783f38",
+    "fresh_eq6_csv": "35cdca9e5e7046544ac7412065e6d9eb107798869956df8a4f2bf85a1f7c6c3c"
+  },
+  "tx_id_empty": true,
+  "block_empty": true,
+  "onchain_verification_claim": false,
+  "note": "Workload inputs regenerated from seed 42 (not retrieved real-world transactions); delivery CSV has empty tx_id/block -> no independent on-chain verification."
+}

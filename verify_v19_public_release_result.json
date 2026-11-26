@@ -1,0 +1,64 @@
+{
+  "scope": "public-release archival verification: 7 original archives + 1 privacy-redacted P03 derivative R2; no fresh execution",
+  "original_archives_verified": 7,
+  "p03_derivative_sha256": "e8cc49894551309c7b2e310a07c92c84fa26715d818e9d36098819d62df02a20",
+  "members_identical": 521,
+  "members_redacted": 2,
+  "P03": {
+    "admission_reason": "630/630 per implementation vs archived oracle",
+    "canonical_and_leaf": "600/600",
+    "EQ": 150,
+    "NEQ": 150,
+    "batch_outcomes": 18,
+    "leaves_per_implementation": 131,
+    "nodes_per_implementation": 114
+  },
+  "P04": {
+    "correct": {
+      "A1": 45,
+      "A1+PID": 75,
+      "A1+CI": 55,
+      "A2": 85
+    },
+    "unsafe_release": {
+      "A1": 55,
+      "A1+PID": 25,
+      "A1+CI": 45,
+      "A2": 15
+    },
+    "benign": {
+      "A1": 40,
+      "A1+PID": 40,
+      "A1+CI": 40,
+      "A2": 40
+    },
+    "paired_A1_A2": [
+      45,
+      0,
+      40,
+      15
+    ]
+  },
+  "P05": {
+    "first_pass_and_corrective": [
+      15,
+      40
+    ],
+    "paired": [
+      15,
+      0,
+      25,
+      0
+    ],
+    "matched_differences": 0,
+    "applicable_states": 39,
+    "missing_state_control": 1
+  },
+  "P06": {
+    "recorded_digest_matches_eq6": 30,
+    "recorded_digest_matches_campaign": 0,
+    "formula_reexecution": false,
+    "onchain_verification": false
+  },
+  "problems": []
+}

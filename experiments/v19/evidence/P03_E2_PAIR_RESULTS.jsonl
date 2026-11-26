@@ -1,0 +1,12 @@
+{"expected": "business-equal", "leg_a": "R4-13", "leg_b": "R4-14", "pair_id": "R4-P01", "pass": true}
+{"expected": "business-equal", "leg_a": "R4-09", "leg_b": "R4-10", "pair_id": "R4-P02", "pass": true}
+{"expected": "business-distinct", "leg_a": "R4-09", "leg_b": "R4-11", "pair_id": "R4-P03", "pass": true}
+{"expected": "business-distinct", "leg_a": "R4-12", "leg_b": "R4-11", "pair_id": "R4-P04", "pass": true}
+{"expected": "business-equal", "leg_a": "R4-18", "leg_b": "R4-01", "pair_id": "R4-P05", "pass": true}
+{"expected": "business-equal", "leg_a": "R4-19", "leg_b": "R4-19b", "pair_id": "R4-P06", "pass": true}
+{"expected": "business-distinct", "leg_a": "R4-19", "leg_b": "R4-19c", "pair_id": "R4-P07", "pass": true}
+{"expected": "business-equal", "leg_a": "R4-23", "leg_b": "R4-24", "pair_id": "R4-P08", "pass": true}
+{"expected": "business-distinct", "leg_a": "R4-25a", "leg_b": "R4-25", "pair_id": "R4-P09", "pass": true}
+{"expected": "business-distinct", "leg_a": "R4-26", "leg_b": "R4-27", "pair_id": "R4-P10", "pass": true}
+{"expected": "admission-differs", "leg_a": "R4-28", "leg_b": "R4-29", "pair_id": "R4-P11", "pass": true}
+{"expected": "business-distinct", "leg_a": "R4-08", "leg_b": "R4-09", "pair_id": "R4-P12", "pass": true}

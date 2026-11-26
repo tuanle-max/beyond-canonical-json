@@ -1,0 +1,34 @@
+{
+  "qa_a_execution": {
+    "record": "results/P03/QA_A_EXECUTION.json",
+    "candidate_sha256": "2b76004840ff9b9abc5522f0f81e9842b4d8822c3e3b04547158ee13302e8417",
+    "extraction": "C:\\Users\\lemin\\AppData\\Local\\Temp\\p03repro_0kpf8l0p",
+    "extraction_exists": true,
+    "interrupted": true,
+    "original_invocation": "run-all halted at run-e2-e3 due to WindowsPath+str TypeError after verify-inputs(rc0) and run-e1(rc0)",
+    "resumed": "run-e2-e3, run-e4, run-controls, run-attribution invoked individually after fix",
+    "runner_bugs": [
+      {
+        "bug": "exe() built path via str(V19/'scripts/'+name)",
+        "fix": "str(V19/'scripts'/name)"
+      },
+      {
+        "bug": "run_controls built path via str(V19/'scripts/'+n)",
+        "fix": "str(V19/'scripts'/n)"
+      }
+    ],
+    "final_source_digests": {
+      "python": "2b6924010d528f39c05ac1f5d332ecee814e2d6a09fa3e38425daa97d119355f",
+      "go": "493102b2265996b734f2d67931ed07547d69026af09d0ea0dbe9f1a98467a5fa"
+    }
+  },
+  "j01_reconstruction": {
+    "rebuilt_occurrences": 630,
+    "unique": 630,
+    "source_cases": 330,
+    "expected_legs": 630,
+    "membership_equal": true,
+    "bytes_and_digest_equal": true,
+    "no_original_raw_claim": true
+  }
+}

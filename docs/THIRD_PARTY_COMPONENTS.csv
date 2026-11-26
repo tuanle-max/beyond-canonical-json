@@ -1,0 +1,9 @@
+component_or_module,version,archive_member,kind,notes
+"github.com/davecgh/go-spew","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"github.com/gowebpki/jcs","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"github.com/pmezard/go-difflib","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"github.com/stretchr/objx","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"github.com/stretchr/testify","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"golang.org/x/text","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"gopkg.in/check.v1","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+"gopkg.in/yaml.v3","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"

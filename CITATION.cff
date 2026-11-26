@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the accompanying manuscript."
+title: "Beyond Canonical JSON: Semantic Interoperability Assurance for Tamper-Evident Commitment Pipelines"
+type: software
+authors:
+  - family-names: "Le"
+    given-names: "Minh T."
+version: "v1.0.0-artifact"
+# repository URL: set after authorized publication; doi: not assigned; orcid omitted (unverified)

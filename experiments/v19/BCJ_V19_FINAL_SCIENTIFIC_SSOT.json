@@ -1,0 +1,87 @@
+{
+  "document": "BCJ_V19_FINAL_SCIENTIFIC_SSOT",
+  "program": "BCJ-V19",
+  "status": {
+    "scientific_development": "CLOSED",
+    "scientific_results": "ACCEPTED",
+    "p07_headline_reconciliation": "ACCEPTED",
+    "engineering_qa": "PARTIAL_WITH_DOCUMENTED_LIMITATIONS",
+    "docker_cleanroom": "NOT_EXECUTED",
+    "new_experiments_required": false,
+    "manuscript_finalization_authorized": true,
+    "submission_authorized": "false_pending_final_manuscript_review"
+  },
+  "preserved": {
+    "final_commit": "fb67aefb74632e92b43318f74ad2f9be0bf199ba",
+    "final_archive": "BCJ_V19_P07_R1_FINAL_CORRECTIVE_REVIEW.zip",
+    "final_archive_sha256": "b53daa567527fe2b7828a38dfb8a1732fc48081b9c6c8526a63641d2382b9d03",
+    "prior_p07_archive": "BCJ_V19_P07_FINAL_CONSOLIDATED_REVIEW.zip",
+    "prior_p07_archive_sha256": "ec0e5448be666ace8ac63aa12102e18da53603230b78993077d3c2d7a1beed09"
+  },
+  "P03": {
+    "admission_and_reason_agreement": "630/630",
+    "typed_objects_eligible_json_canonical_bytes_leaves": "600/600",
+    "equivalent_pairs": "150/150",
+    "distinct_pairs": "150/150",
+    "batch_roots": "18/18",
+    "recorded_leaves_per_implementation": 131,
+    "internal_node_digest_checks_per_implementation": "114/114",
+    "evidence_basis": "frozen-evidence reaggregation and recorded commitment reconstruction (not fresh execution of both semantic implementations)"
+  },
+  "P04": {
+    "common_end_to_end_correctness": {
+      "A1": "45/100",
+      "A1+PID": "75/100",
+      "A1+CI": "55/100",
+      "A2": "85/100"
+    },
+    "paired_A1_vs_A2": {
+      "both_correct": 45,
+      "A1_only": 0,
+      "A2_only": 40,
+      "both_incorrect": 15,
+      "N": 100
+    },
+    "unsafe_release": {
+      "A1": "55/60",
+      "A2": "15/60"
+    },
+    "benign_preservation_per_arm": "40/40",
+    "metric_definition": "safe end-to-end release: fault unit correct iff not released; benign correct iff released and canonical==expected; runtime failure never correct"
+  },
+  "P05": {
+    "V1": "15/40",
+    "V2": "40/40",
+    "paired": {
+      "both_correct": 15,
+      "v1_only": 0,
+      "v2_only": 25,
+      "both_incorrect": 0
+    },
+    "authorized_acceptance_per_arm": "11/11",
+    "unauthorized_acceptance": {
+      "V1": "25/25",
+      "V2": "0/25"
+    },
+    "coordinated_substitution_acceptance": {
+      "V1": "6/6",
+      "V2": "0/6"
+    },
+    "separately_coded_decision_agreement": "40/40",
+    "applicable_state_transitions": "39/39 (+1 missing-state N/A)",
+    "corrective_observations": 80,
+    "first_pass_vs_corrective_decision_reason_initial_final_state_differences": 0
+  },
+  "P06": {
+    "historical_artifact_eq6": "30/30",
+    "alternative_campaign_construction": "0/30",
+    "first_divergence_batch": 0,
+    "evidence_basis": "historical reproduction only; no independent on-chain verification"
+  },
+  "research_questions": "Preserve the manuscript's existing RQs; P07 is cross-cutting reproducibility evidence; final wording owned by Author Lead.",
+  "references": {
+    "claim_restrictions": "BCJ_V19_FINAL_CLAIM_RESTRICTIONS.md",
+    "author_handover": "BCJ_V19_FINAL_AUTHOR_HANDOVER.md",
+    "disposition": "P07_EXPERIMENT_LEAD_FINAL_DISPOSITION.md"
+  }
+}

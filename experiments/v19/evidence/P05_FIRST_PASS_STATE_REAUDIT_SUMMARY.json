@@ -1,0 +1,12 @@
+{
+  "units": 40,
+  "v2_observations": 40,
+  "state_applicable": 39,
+  "state_match": 39,
+  "state_na": 1,
+  "numerator_le_denominator": true,
+  "initial_state_match": 40,
+  "decision_match": 40,
+  "mismatches": [],
+  "note": "ACCEPT not auto-counted; None initial state = N/A; exact final-state equality required; reason codes not independently reconstructed (decision-level only)"
+}

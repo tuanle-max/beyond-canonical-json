@@ -1,0 +1,125 @@
+{
+  "obligations": [
+    {
+      "id": "F01",
+      "title": "P03 independent reaggregation",
+      "status": "PARTIAL",
+      "note": "12/12 pair-level reaggregated; deep 630/600/150/E4 reconstruction NOT completed in R1 (documented)."
+    },
+    {
+      "id": "F02",
+      "title": "P03 per-mutation execution evidence",
+      "status": "PARTIAL",
+      "note": "P05 pipeline mutation tests executed; P03 verifier mutation not re-run."
+    },
+    {
+      "id": "F03",
+      "title": "P03 provenance coverage",
+      "status": "PARTIAL",
+      "note": "Inventory+digests cover P03 artifacts; E4 raw byte-equality not re-derived."
+    },
+    {
+      "id": "F04",
+      "title": "Exact immutable commits",
+      "status": "RESOLVED",
+      "note": "P03 deac7e74, P04 d293c442, P05 9e9f952a/8ad0afa5 bound."
+    },
+    {
+      "id": "F05",
+      "title": "Missing referenced logs",
+      "status": "RESOLVED_AS_LIMITATION",
+      "note": "runall/resume logs unrecovered -> uninterrupted run-all claim prohibited."
+    },
+    {
+      "id": "P04-F24",
+      "title": "Admission vs guard metrics",
+      "status": "RESOLVED",
+      "note": "P07_R1_P04_F24_F30.json separates semantic ACCEPT/REJECT_PROHIBITED/NOT_EXECUTED + alarms."
+    },
+    {
+      "id": "P04-F25",
+      "title": "Detector-specific matrices",
+      "status": "RESOLVED",
+      "note": "Identity/CI confusion computed per applicable arm incl A2."
+    },
+    {
+      "id": "P04-F26",
+      "title": "Stage attribution",
+      "status": "RESOLVED",
+      "note": "alarm_stage distribution + NOT_EXECUTED/UNRESOLVED counted, separated."
+    },
+    {
+      "id": "P04-F27",
+      "title": "Performance interpretation",
+      "status": "RESOLVED_AS_LIMITATION",
+      "note": "Combined processing+guard; medians/IQR only; no component isolation."
+    },
+    {
+      "id": "P04-F28",
+      "title": "Exposure audit",
+      "status": "RESOLVED_AS_LIMITATION",
+      "note": "frozen synthetic terminology; unavailable comparisons disclosed."
+    },
+    {
+      "id": "P04-F29",
+      "title": "Go cross-check scope",
+      "status": "RESOLVED_AS_LIMITATION",
+      "note": "same-team; raw-supported fields only; no third-party."
+    },
+    {
+      "id": "P04-F30",
+      "title": "Activation + independent aggregation",
+      "status": "RESOLVED",
+      "note": "Corrected common-e2e aggregation; tables regenerated; predicted vs observed separated."
+    },
+    {
+      "id": "F49",
+      "title": "Strict input validation integration",
+      "status": "RESOLVED",
+      "note": "verify_entry strict parse integrated (P07 integration tests)."
+    },
+    {
+      "id": "F50",
+      "title": "Execution-lock binding/enforcement",
+      "status": "RESOLVED",
+      "note": "Plan membership anchored outside digest; changed plan rejected even with recomputed digest."
+    },
+    {
+      "id": "F51",
+      "title": "Integration QA (not standalone)",
+      "status": "RESOLVED",
+      "note": "Real validator calls for membership/lock/resume/answer-key."
+    },
+    {
+      "id": "F52",
+      "title": "Bounded timeout + internal-error",
+      "status": "RESOLVED",
+      "note": "Bounded subprocess timeout enforced; TIMEOUT separate from REJECT."
+    },
+    {
+      "id": "F53",
+      "title": "Aggregation membership/failure accounting",
+      "status": "RESOLVED",
+      "note": "Corrected strict accounting in P04/P05 paths; errors not credited."
+    },
+    {
+      "id": "F54",
+      "title": "Executable fail-closed entry gate",
+      "status": "RESOLVED",
+      "note": "Chronology enforced; failed mandatory QA blocks reproduction (demonstrated)."
+    },
+    {
+      "id": "F55",
+      "title": "Dependency closure + extracted package",
+      "status": "PARTIAL",
+      "note": "Extracted + consolidated multi-phase reproduction OK; Docker clean-room NOT executed."
+    }
+  ],
+  "total": 19,
+  "unique": 19,
+  "counts": {
+    "PARTIAL": 4,
+    "RESOLVED": 11,
+    "RESOLVED_AS_LIMITATION": 4
+  }
+}

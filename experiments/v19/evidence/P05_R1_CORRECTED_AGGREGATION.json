@@ -1,0 +1,41 @@
+{
+  "corrective": {
+    "errors": 0,
+    "paired": {
+      "both_correct": 15,
+      "both_incorrect": 0,
+      "v1_only": 0,
+      "v2_only": 25
+    },
+    "per_arm": {
+      "V1": {
+        "correct": 15,
+        "n": 40
+      },
+      "V2": {
+        "correct": 40,
+        "n": 40
+      }
+    }
+  },
+  "first_pass": {
+    "errors": 0,
+    "paired": {
+      "both_correct": 15,
+      "both_incorrect": 0,
+      "v1_only": 0,
+      "v2_only": 25
+    },
+    "per_arm": {
+      "V1": {
+        "correct": 15,
+        "n": 40
+      },
+      "V2": {
+        "correct": 40,
+        "n": 40
+      }
+    }
+  },
+  "rule": "authorized=>ACCEPT; adverse=>REJECT; decision must be real ACCEPT/REJECT (INTERNAL_ERROR/TIMEOUT/INVALID_CONFIG/missing never credited)"
+}

@@ -1,0 +1,62 @@
+{
+  "accepted_reference": {
+    "paired": {
+      "A1_only": 0,
+      "A2_only": 40,
+      "both_correct": 45,
+      "both_incorrect": 15
+    },
+    "per_arm": {
+      "A1": 45,
+      "A1+CI": 55,
+      "A1+PID": 75,
+      "A2": 85
+    }
+  },
+  "agrees_with_accepted": true,
+  "membership": {
+    "arms": 4,
+    "exact": true,
+    "observations": 400,
+    "units": 100
+  },
+  "objective": "common end-to-end safe release: fault=>correct iff not released (any release unsafe); benign=>released AND canonical==expected_canonical; runtime failure never correct",
+  "paired": {
+    "A1_only": 0,
+    "A2_only": 40,
+    "N": 100,
+    "both_correct": 45,
+    "both_incorrect": 15,
+    "primary": "A1 vs A2"
+  },
+  "per_arm": {
+    "A1": {
+      "benign_service": 40,
+      "correct": 45,
+      "n": 100,
+      "runtime_fail": 0,
+      "unsafe_release": 55
+    },
+    "A1+CI": {
+      "benign_service": 40,
+      "correct": 55,
+      "n": 100,
+      "runtime_fail": 0,
+      "unsafe_release": 45
+    },
+    "A1+PID": {
+      "benign_service": 40,
+      "correct": 75,
+      "n": 100,
+      "runtime_fail": 0,
+      "unsafe_release": 25
+    },
+    "A2": {
+      "benign_service": 40,
+      "correct": 85,
+      "n": 100,
+      "runtime_fail": 0,
+      "unsafe_release": 15
+    }
+  }
+}

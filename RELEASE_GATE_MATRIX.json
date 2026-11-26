@@ -1,0 +1,18 @@
+{
+  "gates": {
+    "scientific_integrity": "PASS",
+    "original_evidence_preservation": "PASS",
+    "public_derivative_provenance": "PASS",
+    "retained_evidence_integrity": "PASS",
+    "public_release_verification": "PASS",
+    "rejected_personal_path_exclusion": "PASS",
+    "unauthorized_license_grant_exclusion": "PASS",
+    "redistribution_rights": "PASS",
+    "manuscript_exclusion": "PASS",
+    "public_history_screening": "PASS",
+    "github_ownership": "VERIFIED (tuanle-max via MCP)",
+    "public_visibility": "AUTHORIZED"
+  },
+  "overall": "PASS",
+  "redistribution_basis": "no embedded third-party source; declarations only + first-party binary"
+}

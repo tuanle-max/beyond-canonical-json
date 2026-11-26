@@ -7,12 +7,13 @@
     "public_release_verification": "PASS",
     "rejected_personal_path_exclusion": "PASS",
     "unauthorized_license_grant_exclusion": "PASS",
-    "redistribution_rights": "PASS",
+    "redistribution_rights": "PASS (corrected distribution: notices supplied)",
+    "historical_snapshot_v1_0_0": "SUPERSEDED_NOTICE_INCOMPLETE (not claimed compliant)",
     "manuscript_exclusion": "PASS",
     "public_history_screening": "PASS",
-    "github_ownership": "VERIFIED (tuanle-max via MCP)",
-    "public_visibility": "AUTHORIZED"
+    "github_ownership": "VERIFIED (tuanle-max)",
+    "public_visibility": "AUTHORIZED",
+    "anonymous_retrieval_verification": "PENDING_REMOTE_VERIFICATION"
   },
-  "overall": "PASS",
-  "redistribution_basis": "no embedded third-party source; declarations only + first-party binary"
+  "overall": "PASS_CORRECTED_DISTRIBUTION (RG18 pending tag verification)"
 }

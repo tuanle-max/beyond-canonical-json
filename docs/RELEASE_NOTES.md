@@ -1,7 +1,10 @@
-# BCJ-V19 Research Artifacts v1.0.0
+# BCJ-V19 Research Artifacts v1.0.0 - Licensing Notices Patch 1
 
-Public set = **7 original frozen archives + 1 privacy-redacted P03 derivative** (`BCJ_V19_P03_FINAL_QA_CLOSED_PUBLIC_RELEASE_R2.zip`). Original P03 preserved privately. Derivative removes 6 generated `.pyc` and redacts 1 machine-specific temp-path literal in each of `scripts/p03_qa_b.py` / `scripts/p03_qa_c.py` (521 other members byte-identical).
+**Publication-compliance patch, not a new scientific evaluation.**
 
-Verify: `python verify_v19_public_release.py experiments/v19` (exit 0).
+- Adds `THIRD_PARTY_NOTICES.md` and `third_party_licenses/` for third-party modules embedded in the compiled `boo` binary (github.com/gowebpki/jcs v1.0.1, Apache-2.0; golang.org/x/text v0.19.0, BSD-3-Clause; Go 1.23.12 runtime, BSD-3-Clause + PATENTS).
+- No scientific evidence or experimental result changed; all eight evidence archive identities are unchanged.
+- Supersedes v1.0.0-artifact (which omitted these notices) as the recommended distribution; the original tag is unchanged.
+- No new blanket license is granted for the authors' original research materials.
 
-No blanket license granted; third-party terms preserved. Archival verification only; no fresh execution/third-party replication. Docker clean-room NOT_EXECUTED. P06 archival only. Manuscript excluded.
+Verify: `python verify_v19_public_release.py experiments/v19` (exit 0). Level 2 PARTIAL; Level 3 NOT_EXECUTED; archival verification only.

@@ -32,8 +32,8 @@
     },
     {
       "path": "LICENSING.md",
-      "sha256": "f4a4c6e8b92205453f76c554686e8603e76ac88990fa5165bcd317bbfa34c1b9",
-      "size": 368
+      "sha256": "bc4f1beb170a7b5c6df7964c370595c6dc60ebd39a958bc39ea69b2ab650c5e5",
+      "size": 842
     },
     {
       "path": "PUBLICATION_SAFETY_REPORT.md",
@@ -47,8 +47,13 @@
     },
     {
       "path": "RELEASE_GATE_MATRIX.json",
-      "sha256": "540b7383ca273b9f3655804b96051f0e0ea46cd299ad3e86c3ba14b6a548ce9b",
-      "size": 662
+      "sha256": "37d90a739dafbecfea9bde11c4c679ea18822576f30ba2871059c475c26be306",
+      "size": 813
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "54c7b9ab63444d7853f48b7d069b4172309516567978898b571b9f1bb2271975",
+      "size": 1697
     },
     {
       "path": "verify_v19_evidence.py",
@@ -97,13 +102,13 @@
     },
     {
       "path": "docs/REDISTRIBUTION_REVIEW.md",
-      "sha256": "5f29e786e670ed3ae55769dd2f189c4a0d9b5417c577c8e3d6630eeeb86b73d8",
-      "size": 954
+      "sha256": "99bc385a369c0869dc4f8c89bcd20514215a06ae1ff8a682d42fff452f47831a",
+      "size": 1489
     },
     {
       "path": "docs/RELEASE_NOTES.md",
-      "sha256": "60a84fd8e7c524b6934544fa052755c7a65ce87137a076481ef247c8c348c176",
-      "size": 661
+      "sha256": "7610704ca03cc7bc64f140b04cda57671b1e4780328ceb9b1e6cb2fe1033d706",
+      "size": 841
     },
     {
       "path": "docs/RELEASE_VALIDATION_REPORT.md",
@@ -117,8 +122,28 @@
     },
     {
       "path": "docs/THIRD_PARTY_COMPONENTS.csv",
-      "sha256": "a40407e9ca1577381e6b3fcc77f531832a550c4716e412da7718183af2e63e78",
-      "size": 1425
+      "sha256": "ee2569fed2cc07b63cc45647a5ef065c7c40a3f40fc927ccd6ad0defd92d5388",
+      "size": 753
+    },
+    {
+      "path": "third_party_licenses/go-runtime-LICENSE.txt",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "size": 1453
+    },
+    {
+      "path": "third_party_licenses/go-runtime-PATENTS.txt",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "size": 1303
+    },
+    {
+      "path": "third_party_licenses/golang-x-text-LICENSE.txt",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "size": 1453
+    },
+    {
+      "path": "third_party_licenses/gowebpki-jcs-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
     },
     {
       "path": "tools/verify_release.py",
@@ -350,5 +375,13 @@
       "sha256": "b2bde90a619fe3e7b7330934a0f4ea602cb5980bc1ea2612fbb17ab09f14a3d0",
       "size": 1277
     }
+  ],
+  "patch": "v1.0.0-artifact.1 third-party notices",
+  "third_party_notices": [
+    "THIRD_PARTY_NOTICES.md",
+    "third_party_licenses/gowebpki-jcs-LICENSE.txt",
+    "third_party_licenses/golang-x-text-LICENSE.txt",
+    "third_party_licenses/go-runtime-LICENSE.txt",
+    "third_party_licenses/go-runtime-PATENTS.txt"
   ]
 }

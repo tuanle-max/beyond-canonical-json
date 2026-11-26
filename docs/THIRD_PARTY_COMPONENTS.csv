@@ -1,9 +1,5 @@
-component_or_module,version,archive_member,kind,notes
-"github.com/davecgh/go-spew","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"github.com/gowebpki/jcs","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"github.com/pmezard/go-difflib","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"github.com/stretchr/objx","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"github.com/stretchr/testify","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"golang.org/x/text","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"gopkg.in/check.v1","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
-"gopkg.in/yaml.v3","see go.sum","go.sum / go.mod","dependency declaration (not embedded source)","retrieved upstream under its own license at rebuild; not vendored"
+component_or_module,version,archive_member,kind,license,notice
+"github.com/gowebpki/jcs","v1.0.1","implementations/go-dev/boo (embedded)","embedded in compiled binary","Apache-2.0","third_party_licenses/gowebpki-jcs-LICENSE.txt (no upstream NOTICE)"
+"golang.org/x/text","v0.19.0","implementations/go-dev/boo (embedded)","embedded in compiled binary","BSD-3-Clause","third_party_licenses/golang-x-text-LICENSE.txt"
+"Go runtime/stdlib","1.23.12","implementations/go-dev/boo (embedded)","embedded runtime","BSD-3-Clause + PATENTS","third_party_licenses/go-runtime-LICENSE.txt + go-runtime-PATENTS.txt"
+"go.mod/go.sum module refs","as listed","go.mod / go.sum","dependency declaration (not embedded source)","upstream terms","retrieved upstream at rebuild"

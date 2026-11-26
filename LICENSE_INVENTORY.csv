@@ -1,13 +1,13 @@
-path,owner,license,license_scope,evidence
-sources/corrected_python_boo.py,Minh Tuan Le,MIT,author-owned source,author authorship; project MHN2026-CT01-03
-sources/corrected_go_main.go,Minh Tuan Le,MIT,author-owned source,author authorship
+path,owner,license_classification,scope,evidence
+sources/corrected_python_boo.py,Minh Tuan Le,MIT,author-owned implementation,author authorship
+sources/corrected_go_main.go,Minh Tuan Le,MIT,author-owned implementation,author authorship
 verify_v20_r5b_evidence.py,Minh Tuan Le,MIT,author-owned script,author authorship
-evidence/*.jsonl,Minh Tuan Le,CC-BY-4.0,author-owned synthetic data/oracle,author-generated fixtures
+evidence/*.jsonl,Minh Tuan Le,CC-BY-4.0,author-owned synthetic data and oracles,author-generated fixtures
 review/*.md,Minh Tuan Le,CC-BY-4.0,author-owned documentation,author authorship
-sources/boo_r4_linux_amd64,Minh Tuan Le,MIT,compiled from author-owned Go source; upstream notices apply,go.mod/go.sum pins
+sources/boo_r4_linux_amd64,Mixed,Mixed: MIT (author components, where rights held) + Apache-2.0 (jcs) + BSD-3-Clause (x/text, Go runtime),component-specific; upstream notices required,go.mod/go.sum pins; THIRD_PARTY_NOTICES.md
 third-party: gowebpki/jcs v1.0.1,upstream,Apache-2.0,third-party dependency,upstream repository
 third-party: golang.org/x/text v0.19.0,upstream,BSD-3-Clause,third-party dependency,upstream repository
 third-party: Go runtime 1.23.12,upstream,BSD-3-Clause + PATENTS,third-party toolchain,go.dev/LICENSE
 third-party: rfc8785 0.1.3,upstream,Apache-2.0,third-party dependency,PyPI
-historical archives/v1.0.0-artifact.5,Minh Tuan Le,unchanged historical terms,historical frozen material,release v1.0.0-artifact.5
-v22_submission.tex,Minh Tuan Le,not licensed here,manuscript excluded from deposit,author instruction
+historical archives v1.0.0-artifact.5,Minh Tuan Le,unchanged historical terms,historical frozen material,release v1.0.0-artifact.5
+v22_submission.tex,Minh Tuan Le,not licensed here,manuscript excluded from deposit and releases,author instruction

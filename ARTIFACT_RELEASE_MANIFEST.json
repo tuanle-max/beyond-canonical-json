@@ -1,0 +1,25 @@
+{
+  "release": "v1.0.0-artifact.7",
+  "purpose": "V22 final integrity and reproducibility audit",
+  "scientific_artifact": {
+    "tag": "v1.0.0-artifact.6",
+    "asset_id": 795238808,
+    "sha256": "e9d64eec4cbf1a484400ed36ad18d9bfb49b00163c6446a74af28ded8f3a48c7",
+    "historical_local_sha256": "ced5a3d1b577d32cddeccff8370c28d329433930734171b537c20cf726144ced"
+  },
+  "audit_artifact": {
+    "filename": "BCJ_V22_FINAL_INTEGRITY_QA_REVIEW.zip",
+    "sha256": "9fc3b4525fa357c4ddaa3696f018482838b888668bc628c9257ddb32da19aba0",
+    "size": 200588
+  },
+  "detached_checksum_asset_id": 795498150,
+  "historical_tags": {
+    "v1.0.0-artifact.5": "8049d1e53c646b0f1bb7a43e88c44448dbf134b7"
+  },
+  "claim_restrictions": [
+    "P04/P05 historical only",
+    "KAT engine replay not executed",
+    "no independent third-party replication",
+    "no universal correctness"
+  ]
+}

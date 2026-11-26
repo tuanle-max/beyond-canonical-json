@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite the archived research artifact using the version-specific DOI when available."
+message: "Cite the version-specific DOI for the exact archived research artifact."
 title: "Beyond Canonical JSON: Semantic Interoperability Assurance for Tamper-Evident Commitment Pipelines - Research Artifacts and V22 Integrity Audit"
 type: software
 authors:
@@ -7,5 +7,9 @@ authors:
     given-names: Minh Tuan
     affiliation: "Faculty of Electrical and Electronics Engineering, Hanoi Open University"
 version: 1.0.0-artifact.7
+doi: "10.5281/zenodo.24558999"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24558999"
 license: MIT
 repository-code: "https://github.com/tuanle-max/beyond-canonical-json"

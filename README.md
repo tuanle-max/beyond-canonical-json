@@ -662,3 +662,11 @@ ARTIFACT_IDENTITY_CLARIFICATION.md.
 P04/P05 remain historical-only. KAT engine replay was not executed. No
 independent third-party replication, universal correctness, complete
 source-to-binary provenance, or production failure probability is claimed.
+
+## Persistent Archive DOI (V22)
+
+Version-specific DOI: [10.5281/zenodo.24558999](https://doi.org/10.5281/zenodo.24558999)
+Concept DOI: [10.5281/zenodo.24558998](https://doi.org/10.5281/zenodo.24558998)
+Record: https://zenodo.org/records/24558999
+
+**License scope.** MIT for author-owned software; CC-BY-4.0 for author-owned synthetic data, results and documentation; the bundled executable is mixed (author components MIT where rights are held; upstream Apache-2.0 / BSD-3-Clause / PSF-2.0). See LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md. Institutional confirmation of ownership is pending.

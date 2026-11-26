@@ -1,9 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this artifact, cite the accompanying manuscript."
-title: "Beyond Canonical JSON: Semantic Interoperability Assurance for Tamper-Evident Commitment Pipelines"
+message: "Cite the archived research artifact using the version-specific DOI when available."
+title: "Beyond Canonical JSON: Semantic Interoperability Assurance for Tamper-Evident Commitment Pipelines - Research Artifacts and V22 Integrity Audit"
 type: software
 authors:
-  - family-names: "Le"
-    given-names: "Minh T."
-version: "v1.0.0-artifact"
-# repository URL: set after authorized publication; doi: not assigned; orcid omitted (unverified)
+  - family-names: Le
+    given-names: Minh Tuan
+    affiliation: "Faculty of Electrical and Electronics Engineering, Hanoi Open University"
+version: 1.0.0-artifact.7
+license: MIT
+repository-code: "https://github.com/tuanle-max/beyond-canonical-json"

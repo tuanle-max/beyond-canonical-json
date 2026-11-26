@@ -61,34 +61,14 @@
       "size": 1697
     },
     {
-      "path": "verify_v19_evidence.py",
-      "sha256": "cb75d7ddefc1087eebb4dca7d4650bff62f8a7c3df8338cbbe946376f02fc58b",
-      "size": 10434
-    },
-    {
-      "path": "verify_v19_evidence_result.json",
-      "sha256": "3b250331fda3d59fe85fbf6b9253f373da5297fba6e5f81489d854d6de25518d",
-      "size": 1135
-    },
-    {
-      "path": "verify_v19_public_release.py",
-      "sha256": "bd498311c0dec390d35d579c1980add71a212e501b822f059b5aa1a8cc17dc7e",
-      "size": 2621
-    },
-    {
-      "path": "verify_v19_public_release_result.json",
-      "sha256": "794b8fff870b790e677515bf39822f772d33cfa7b38f6f502de932cfa1624cc3",
-      "size": 1355
-    },
-    {
       "path": "docs/ARTIFACT_INVENTORY.md",
       "sha256": "e4277529c1573401e6e6b3e17d01c24518f75b08d707213c7434d756befc9d29",
       "size": 1886
     },
     {
       "path": "docs/CLAIM_EVIDENCE_MATRIX.csv",
-      "sha256": "715939fd075765572162372ccc5350e735ad8769a449ece8cda1f6ff7f918187",
-      "size": 2366
+      "sha256": "08bac80248bf62268cd3a9183c44e52416bf1d0141ae243d2efaadc8ef41743f",
+      "size": 2357
     },
     {
       "path": "docs/CORRECTION_HISTORY.md",
@@ -131,49 +111,24 @@
       "size": 753
     },
     {
-      "path": "third_party_licenses/go-runtime-LICENSE.txt",
-      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
-      "size": 1453
-    },
-    {
-      "path": "third_party_licenses/go-runtime-PATENTS.txt",
-      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
-      "size": 1303
-    },
-    {
-      "path": "third_party_licenses/golang-x-text-LICENSE.txt",
-      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
-      "size": 1453
-    },
-    {
-      "path": "third_party_licenses/gowebpki-jcs-LICENSE.txt",
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "size": 11358
-    },
-    {
-      "path": "tools/verify_release.py",
-      "sha256": "869114b3c4b2c1165247df6298a4dfc8ad1a534ed634355155fea64b36b8b8c9",
-      "size": 3886
-    },
-    {
       "path": "experiments/v19/BCJ_V19_EXPERIMENT_LEAD_MASTER_SSOT.md",
       "sha256": "1fcb732c8598e53ba8130d99f35ab39bab0c31ca6c385b0520b8f8b6002349bd",
       "size": 80553
     },
     {
       "path": "experiments/v19/BCJ_V19_FINAL_AUTHOR_HANDOVER.md",
-      "sha256": "9cf6408d12ad74068e76432976bd8589e23b0730a6d5d1289a4e85d42edb8ec7",
-      "size": 2333
+      "sha256": "c459768a884ec36be39fec1c0488fbe2a1287513f7d26df14eeb0e427be08076",
+      "size": 2300
     },
     {
       "path": "experiments/v19/BCJ_V19_FINAL_CLAIM_RESTRICTIONS.md",
-      "sha256": "76de78f9d1ebd7d2790bbda19a4b5b6e4948dfd8db98bc601d55e78281afdf31",
-      "size": 1626
+      "sha256": "bcd9855984fff00ce327b6f13354cb8a33d8d00eaeec385eeb6a56b840cd6554",
+      "size": 1601
     },
     {
       "path": "experiments/v19/BCJ_V19_FINAL_SCIENTIFIC_SSOT.json",
-      "sha256": "7a8015b7fec23f066a07f122e1b8327bba2e2d6ecb30dabc4e59cb8e6f56b36f",
-      "size": 3266
+      "sha256": "297042edb7f96479330165f1ecdf2dd1c98cc3de5447b19817fd89838d615a1b",
+      "size": 3179
     },
     {
       "path": "experiments/v19/BCJ_V19_P01_CLOSURE_REVIEW.zip",
@@ -267,13 +222,8 @@
     },
     {
       "path": "experiments/v19/P07_EXPERIMENT_LEAD_FINAL_DISPOSITION.md",
-      "sha256": "2f26a33772b8a81fd388f23ee44706a5276496889f91c2e7fc9564498cdea385",
-      "size": 1878
-    },
-    {
-      "path": "experiments/v19/verify_v19_evidence_result.historical.json",
-      "sha256": "3b250331fda3d59fe85fbf6b9253f373da5297fba6e5f81489d854d6de25518d",
-      "size": 1135
+      "sha256": "e022917bae17dfa5712001723ba1a60b89d3e0e87b5cbb721ded93b6da380011",
+      "size": 1849
     },
     {
       "path": "experiments/v19/evidence/J01_RECONSTRUCTION_VERIFICATION.json",
@@ -297,8 +247,8 @@
     },
     {
       "path": "experiments/v19/evidence/P04_MEASURED_RAW.jsonl",
-      "sha256": "d2341ffd55c4107b85c1d3fb803af83b6d62f76310efcd9a358daa3bbb94922d",
-      "size": 982044
+      "sha256": "ce5df5ca97f94ff4e67e466b83c9d97d795c9495d959d20ae2e4394c84a82895",
+      "size": 981644
     },
     {
       "path": "experiments/v19/evidence/P05_EVALUATOR_ORACLE.jsonl",
@@ -331,14 +281,34 @@
       "size": 51206
     },
     {
+      "path": "experiments/v19/evidence/P06_R1_PROVENANCE.json",
+      "sha256": "cd0bc11712e884d65fe028eb5a9dccea6a60d13c9cb16135719743fff9e03073",
+      "size": 958
+    },
+    {
+      "path": "experiments/v19/evidence/P07_R1_19_OBLIGATION_REGISTER.json",
+      "sha256": "06643c98fa450196c6f813a5b2fa6c097e40cf50b65fb9026b802033fd93c764",
+      "size": 3959
+    },
+    {
+      "path": "experiments/v19/evidence/P07_R1_P04_CLASSIFICATION_TRACE.jsonl",
+      "sha256": "bcb182aab9f851bd93f1836059b3283b686e5a012fa060d858a4bbac34f1ce9e",
+      "size": 145720
+    },
+    {
+      "path": "experiments/v19/evidence/P07_R1_P04_INDEPENDENT_AGGREGATION.json",
+      "sha256": "b2bde90a619fe3e7b7330934a0f4ea602cb5980bc1ea2612fbb17ab09f14a3d0",
+      "size": 1277
+    },
+    {
       "path": "experiments/v19/evidence/p06_drtea_eq6_repro.py",
       "sha256": "8e3f346ccb09c96237333e5ded7594cf9ff77c334c7fc58877b7b1e953783f38",
       "size": 5127
     },
     {
       "path": "experiments/v19/evidence/p06_drtea_mainnet_manifest_REAL.json",
-      "sha256": "f5dbc2fe037db808885d35648c4e2dd84df32e684c3e98b9056a41da181e9e3b",
-      "size": 26822
+      "sha256": "f3bb0502ffce1d9a987705e8142d6c7fd25ff567fe7a5d8397421402a6355abf",
+      "size": 26115
     },
     {
       "path": "experiments/v19/evidence/p06_hashing.py",
@@ -356,29 +326,59 @@
       "size": 8578
     },
     {
-      "path": "experiments/v19/evidence/P06_R1_PROVENANCE.json",
-      "sha256": "cd0bc11712e884d65fe028eb5a9dccea6a60d13c9cb16135719743fff9e03073",
-      "size": 958
-    },
-    {
       "path": "experiments/v19/evidence/p06_repro_eq6_fresh.csv",
       "sha256": "35cdca9e5e7046544ac7412065e6d9eb107798869956df8a4f2bf85a1f7c6c3c",
       "size": 6418
     },
     {
-      "path": "experiments/v19/evidence/P07_R1_19_OBLIGATION_REGISTER.json",
-      "sha256": "06643c98fa450196c6f813a5b2fa6c097e40cf50b65fb9026b802033fd93c764",
-      "size": 3959
+      "path": "experiments/v19/verify_v19_evidence_result.historical.json",
+      "sha256": "3b250331fda3d59fe85fbf6b9253f373da5297fba6e5f81489d854d6de25518d",
+      "size": 1135
     },
     {
-      "path": "experiments/v19/evidence/P07_R1_P04_CLASSIFICATION_TRACE.jsonl",
-      "sha256": "bcb182aab9f851bd93f1836059b3283b686e5a012fa060d858a4bbac34f1ce9e",
-      "size": 145720
+      "path": "third_party_licenses/go-runtime-LICENSE.txt",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "size": 1453
     },
     {
-      "path": "experiments/v19/evidence/P07_R1_P04_INDEPENDENT_AGGREGATION.json",
-      "sha256": "b2bde90a619fe3e7b7330934a0f4ea602cb5980bc1ea2612fbb17ab09f14a3d0",
-      "size": 1277
+      "path": "third_party_licenses/go-runtime-PATENTS.txt",
+      "sha256": "96f408bfae65bf137fc2525d3ecb030271c50c1e90799f87abf8846d8dd505cc",
+      "size": 1303
+    },
+    {
+      "path": "third_party_licenses/golang-x-text-LICENSE.txt",
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "size": 1453
+    },
+    {
+      "path": "third_party_licenses/gowebpki-jcs-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    {
+      "path": "tools/verify_release.py",
+      "sha256": "869114b3c4b2c1165247df6298a4dfc8ad1a534ed634355155fea64b36b8b8c9",
+      "size": 3886
+    },
+    {
+      "path": "verify_v19_evidence.py",
+      "sha256": "cb75d7ddefc1087eebb4dca7d4650bff62f8a7c3df8338cbbe946376f02fc58b",
+      "size": 10434
+    },
+    {
+      "path": "verify_v19_evidence_result.json",
+      "sha256": "3b250331fda3d59fe85fbf6b9253f373da5297fba6e5f81489d854d6de25518d",
+      "size": 1135
+    },
+    {
+      "path": "verify_v19_public_release.py",
+      "sha256": "bd498311c0dec390d35d579c1980add71a212e501b822f059b5aa1a8cc17dc7e",
+      "size": 2621
+    },
+    {
+      "path": "verify_v19_public_release_result.json",
+      "sha256": "794b8fff870b790e677515bf39822f772d33cfa7b38f6f502de932cfa1624cc3",
+      "size": 1355
     }
   ],
   "patch": "v1.0.0-artifact.1 third-party notices",

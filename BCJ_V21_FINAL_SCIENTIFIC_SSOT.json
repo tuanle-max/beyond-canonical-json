@@ -1,0 +1,40 @@
+{
+  "extension_of": "BCJ_V20_FINAL_CORRECTIVE_SSOT.json (historical; not replaced)",
+  "identities": {
+    "python_r4": "46f45c148cc421956cae37e8b5ef355a0ad689c785fc1c2fe7769c045e2d4128",
+    "go_r4": "4a2d6b12a51f961667bed88a3e5a535ec26006cc729172188166073387865e16",
+    "go_r4_binary": "849a03582e99ebbfdf78833b3ee9ef0d2e6cbc1c76e5cef971e62bf484d17f3f",
+    "r4_archive": "0d41d35877951477469695e9ceffead9ae5eb3476d8145f66c3e141cd8c77418",
+    "r5_archive": "2843db6f41e99c4c241e55f862479ec5dee2dcbf07f549309d742a1b65f4382d",
+    "r5a_archive": "363d1380aa08c0693c353edb783ba6cae8f3516799a19075c5f2dbb2ab6e7107",
+    "r5b_archive": "d0f75382a110520eefbc152ed1d25ac377099d4ac482a555e1157b8a0c8fc8a3",
+    "historical_p03": "45053224dc25c314a0e305324ccb087020f3832b4fa00b569833aad18c122761",
+    "public_tag": "v1.0.0-artifact.5"
+  },
+  "accepted_results": {
+    "archived_go": "748/753",
+    "rebuilt_final_go": "753/753",
+    "python_suites": "753/753",
+    "go_suites": "753/753",
+    "temporal": "13/13",
+    "r5_alias": "18/18 (17 distinct raw)",
+    "r5a_alias": "4/4",
+    "e4": "18/18",
+    "e4_leaves": 131,
+    "e4_nodes": 114,
+    "membership": "5/5",
+    "kat_reference": "10/10",
+    "kat_engine_replay": "NOT_EXECUTED"
+  },
+  "dispositions": {
+    "scientific_corrective_evaluation": "APPROVED",
+    "research_expansion": "CLOSED",
+    "recorded_build_provenance": "ACCEPTED_WITH_LIMITATIONS",
+    "independently_reproduced_build": "NOT_ESTABLISHED",
+    "kat_engine_replay": "NOT_EXECUTED_ACCEPTED_LIMITATION",
+    "publisher_template_validation": "PENDING",
+    "public_corrective_release": "PENDING_AUTHORIZATION"
+  },
+  "p04_p05": "HISTORICAL_RESULT_ONLY",
+  "note": "denominators not pooled into a statistical sample"
+}
